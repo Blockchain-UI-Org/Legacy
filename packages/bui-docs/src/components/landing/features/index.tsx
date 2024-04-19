@@ -7,17 +7,12 @@ const CardsData = [
     icon: "/img/speed-light.svg",
     title: "Increased User Adoption",
     description:
-      "Making the interface easier leads to more people using the product because it's simpler to understand.",
+      "A simpler user experience can lead to more people using your product, which can lead to increased revenue.",
   },
   {
     icon: "/img/solar-light.svg",
     title: "Cost",
-    description: "Save development costs by focusing on the most important features.",
-  },
-  {
-    icon: "/img/outline-light.svg",
-    title: "Simple",
-    description: "Easy-to-install and clear documentation.",
+    description: "Simplifying the interface can lower development and technical support expenses.",
   },
   {
     icon: "/img/people-light.svg",
