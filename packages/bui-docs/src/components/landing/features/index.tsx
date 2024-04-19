@@ -15,6 +15,11 @@ const CardsData = [
     description: "Simplifying the interface can lower development and technical support expenses.",
   },
   {
+    icon: "/img/outline-light.svg",
+    title: "Simple",
+    description: "Easy-to-install and clear documentation.",
+  },
+  {
     icon: "/img/people-light.svg",
     title: "Trust",
     description: "Users feel more secure and comfortable using systems that are intuitive and easy to navigate.",
@@ -24,7 +29,7 @@ const CardsData = [
 const FeaturesSection = () => {
   return (
     <div className="featureSection">
-      <div className="container">
+      <div className="container" style={{ marginTop: "20px" }}>
         <div className="d-flex align-items-center justify-content-center">
           <Heading style={{ display: "Flex", justifyContent: "center", textAlign: "center" }}>Why?</Heading>
         </div>
