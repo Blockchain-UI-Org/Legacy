@@ -21,10 +21,9 @@ const GetStartedSection = () => {
               <div className="rightSection d-md-none">
                 <img src="/img/mock-up1.svg" alt="iphone_mockup" />
               </div>
-              <div className="contactUs">Beta release now available.</div>
-
+              {/* <div className="contactUs">Beta release now available.</div> */}
               <GradientButton className="button" onClick={() => history.push("/docs/intro")}>
-                Get Started
+                Join our Wait List
               </GradientButton>
             </div>
           </div>
