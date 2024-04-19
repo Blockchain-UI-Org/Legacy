@@ -35,9 +35,9 @@ const Landing = () => {
           { completed: false, title: "Drag n Drop", description: "No Code" },
         ]}
       /> */}
-      <FAQSection />
+      {/* <FAQSection /> */}
       <GetInTouch />
-      <ComponentsSection />
+      {/* <ComponentsSection /> */}
     </div>
   );
 };
