@@ -36,7 +36,7 @@ const Landing = () => {
         ]}
       /> */}
       {/* <FAQSection /> */}
-      <GetInTouch />
+      {/* <GetInTouch /> */}
       {/* <ComponentsSection /> */}
     </div>
   );
