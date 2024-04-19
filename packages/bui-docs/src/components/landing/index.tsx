@@ -13,13 +13,13 @@ const Landing = () => {
     <div>
       {/* <Menu></Menu> */}
       <GetStartedSection />
-      <CommunitySection />
+      {/* <CommunitySection /> */}
 
       {/* <PartnersSection /> */}
 
       <FeaturesSection />
 
-      <Roadmap
+      {/* <Roadmap
         items={[
           { title: "Launch", description: "", completed: true },
           {
@@ -34,10 +34,10 @@ const Landing = () => {
           },
           { completed: false, title: "Drag n Drop", description: "No Code" },
         ]}
-      />
-      <FAQSection />
-      <GetInTouch />
-      <ComponentsSection />
+      /> */}
+      {/* <FAQSection /> */}
+      {/* <GetInTouch /> */}
+      {/* <ComponentsSection /> */}
     </div>
   );
 };

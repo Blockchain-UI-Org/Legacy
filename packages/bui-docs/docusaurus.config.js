@@ -75,23 +75,23 @@ const config = {
           style: { display: "none" },
         },
         items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Docs",
-          },
-          {
-            href: "https://www.chromatic.com/library?appId=63a670b1ce0472f1c60a3f59",
-            position: "left",
-            label: "Library",
-            className: "external-link",
-          },
-          {
-            href: "/blog",
-            position: "left",
-            label: "Blog",
-          },
+          // {
+          //   type: "doc",
+          //   docId: "intro",
+          //   position: "left",
+          //   label: "Docs",
+          // },
+          // {
+          //   href: "https://www.chromatic.com/library?appId=63a670b1ce0472f1c60a3f59",
+          //   position: "left",
+          //   label: "Library",
+          //   className: "external-link",
+          // },
+          // {
+          //   href: "/blog",
+          //   position: "left",
+          //   label: "Blog",
+          // },
           {
             href: "https://twitter.com/ui_blockchain",
             position: "right",
@@ -121,7 +121,6 @@ const config = {
                 label: "Docs",
                 to: "/docs/intro",
               },
-            
             ],
           },
           // {

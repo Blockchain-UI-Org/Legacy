@@ -5,13 +5,14 @@ import "./Feature.scss";
 const CardsData = [
   {
     icon: "/img/speed-light.svg",
-    title: "Speed",
-    description: "Faster development",
+    title: "Increased User Adoption",
+    description:
+      "A simpler user experience can lead to more people using your product, which can lead to increased revenue.",
   },
   {
     icon: "/img/solar-light.svg",
     title: "Cost",
-    description: "Save development costs.",
+    description: "Simplifying the interface can lower development and technical support expenses.",
   },
   {
     icon: "/img/outline-light.svg",
@@ -20,18 +21,18 @@ const CardsData = [
   },
   {
     icon: "/img/people-light.svg",
-    title: "Safe and Secure",
-    description: "Tested for vunerabilities.",
+    title: "Trust",
+    description: "Users feel more secure and comfortable using systems that are intuitive and easy to navigate.",
   },
 ];
 
 const FeaturesSection = () => {
   return (
     <div className="featureSection">
-      <div className="container">
+      <div className="container" style={{ marginTop: "20px" }}>
         <div className="d-flex align-items-center justify-content-center">
-          <Heading style={{ display: "Flex", justifyContent: "center", textAlign:"center"}}>
-            Amazing Benefits
+          <Heading style={{ display: "Flex", justifyContent: "center", textAlign: "center", marginTop: "20px" }}>
+            Why?
           </Heading>
         </div>
       </div>
