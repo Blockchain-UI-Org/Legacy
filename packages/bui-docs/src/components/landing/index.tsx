@@ -14,11 +14,12 @@ const Landing = () => {
       {/* <Menu></Menu> */}
       <GetStartedSection />
       {/* <CommunitySection /> */}
-
       {/* <PartnersSection /> */}
-
+      <br />
+      <br />
+      <br />
+      <br />
       <FeaturesSection />
-
       {/* <Roadmap
         items={[
           { title: "Launch", description: "", completed: true },

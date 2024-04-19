@@ -61,19 +61,19 @@ const config = {
     ({
       colorMode: {
         defaultMode: "dark",
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       docs: {},
       // Replace with your project's social card
       image: "img/logo.png",
       navbar: {
-        title: "Blockchain UI",
-        logo: {
-          alt: "Blockchain UI",
-          src: "img/logo.png",
-          style: { display: "none" },
-        },
+        // title: "Blockchain UI",
+        // logo: {
+        //   alt: "Blockchain UI",
+        //   src: "img/logo.png",
+        //   style: { display: "none" },
+        // },
         items: [
           // {
           //   type: "doc",

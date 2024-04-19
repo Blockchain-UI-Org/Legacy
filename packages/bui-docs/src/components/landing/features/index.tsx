@@ -6,8 +6,7 @@ const CardsData = [
   {
     icon: "/img/speed-light.svg",
     title: "Increased User Adoption",
-    description:
-      "A simpler user experience can lead to more people using your product, which can lead to increased revenue.",
+    description: "A simpler UX can lead to more people using your product, which can lead to increased revenue.",
   },
   {
     icon: "/img/solar-light.svg",
@@ -15,14 +14,14 @@ const CardsData = [
     description: "Simplifying the interface can lower development and technical support expenses.",
   },
   {
-    icon: "/img/outline-light.svg",
-    title: "Simple",
-    description: "Easy-to-install and clear documentation.",
-  },
-  {
     icon: "/img/people-light.svg",
     title: "Trust",
     description: "Users feel more secure and comfortable using systems that are intuitive and easy to navigate.",
+  },
+  {
+    icon: "/img/outline-light.svg",
+    title: "Simple",
+    description: "Easy-to-install and clear documentation.",
   },
 ];
 
