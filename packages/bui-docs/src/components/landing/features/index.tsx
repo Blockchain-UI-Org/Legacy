@@ -31,7 +31,7 @@ const FeaturesSection = () => {
       <div className="container" style={{ marginTop: "20px" }}>
         <div className="d-flex align-items-center justify-content-center">
           <Heading style={{ display: "Flex", justifyContent: "center", textAlign: "center", marginTop: "20px" }}>
-            Why?
+            Benefits
           </Heading>
         </div>
       </div>

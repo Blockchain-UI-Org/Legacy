@@ -14,7 +14,7 @@ export const GetInTouch = () => {
               <div className="getInTouch__header">
                 <div className="getInTouch__subtitle">GET IN TOUCH</div>
                 <h4 className="getInTouch__title">
-                  Building with Blockchain UI means you are part of an active developer community
+                  Building with Web3 UI means you are part of an active developer community
                 </h4>
               </div>
               <div className="getInTouch__body">

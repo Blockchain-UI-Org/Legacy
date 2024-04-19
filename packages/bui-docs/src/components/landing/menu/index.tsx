@@ -9,7 +9,7 @@ const Menu = () => {
     <Container>
       <Wrapper>
         <MenuItem>
-          <div className="homeButton">BUI</div>
+          <div className="homeButton">Web3 UI</div>
         </MenuItem>
         <MenuItem>
           <Link
