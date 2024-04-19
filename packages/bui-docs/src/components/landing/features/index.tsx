@@ -5,13 +5,14 @@ import "./Feature.scss";
 const CardsData = [
   {
     icon: "/img/speed-light.svg",
-    title: "Speed",
-    description: "Faster development",
+    title: "Increased User Adoption",
+    description:
+      "Making the interface easier leads to more people using the product because it's simpler to understand.",
   },
   {
     icon: "/img/solar-light.svg",
     title: "Cost",
-    description: "Save development costs.",
+    description: "Save development costs by focusing on the most important features.",
   },
   {
     icon: "/img/outline-light.svg",
@@ -20,8 +21,8 @@ const CardsData = [
   },
   {
     icon: "/img/people-light.svg",
-    title: "Safe and Secure",
-    description: "Tested for vunerabilities.",
+    title: "Trust",
+    description: "Users feel more secure and comfortable using systems that are intuitive and easy to navigate.",
   },
 ];
 
@@ -30,9 +31,7 @@ const FeaturesSection = () => {
     <div className="featureSection">
       <div className="container">
         <div className="d-flex align-items-center justify-content-center">
-          <Heading style={{ display: "Flex", justifyContent: "center", textAlign:"center"}}>
-            Amazing Benefits
-          </Heading>
+          <Heading style={{ display: "Flex", justifyContent: "center", textAlign: "center" }}>Benefits</Heading>
         </div>
       </div>
 
