@@ -57,18 +57,18 @@ export default function FooterLayout({ style, links, logo, copyright }) {
                   </div>
                 );
               })} */}
-            <div className="col-sm-3 d-flex justify-content-center">
-              {icons.map((item) => {
-                return (
-                  <a className={clsx(item.className)} target="_blank" href={item.href}>
-                    {item.label}
-                  </a>
-                );
-              })}
-            </div>
           </div>
         </div>
         <div className="row justify-content-center">
+          <div className="col-sm-3 d-flex justify-content-center">
+            {icons.map((item) => {
+              return (
+                <a className={clsx(item.className)} target="_blank" href={item.href}>
+                  {item.label}
+                </a>
+              );
+            })}
+          </div>
           <div className="col-sm-8 text-center">{copyright}</div>
         </div>
       </div>
