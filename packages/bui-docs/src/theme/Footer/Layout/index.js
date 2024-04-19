@@ -58,8 +58,6 @@ export default function FooterLayout({ style, links, logo, copyright }) {
                 );
               })} */}
           </div>
-        </div>
-        <div className="col justify-content-center">
           <div className="col-sm-3 d-flex justify-content-center">
             {icons.map((item) => {
               return (
@@ -69,6 +67,9 @@ export default function FooterLayout({ style, links, logo, copyright }) {
               );
             })}
           </div>
+        </div>
+
+        <div className="row justify-content-center">
           <div className="col-sm-8 text-center">{copyright}</div>
         </div>
       </div>
