@@ -37,9 +37,9 @@ export default function FooterLayout({ style, links, logo, copyright }) {
         <div className="row py-5 justify-content-center">
           <div className="col-sm-6">
             <div className="row">
-              <div className="col-sm-3 d-flex justify-content-center mb-2">
+              {/* <div className="col-sm-3 d-flex justify-content-center mb-2">
                 <Link className={"footer__link"} to={"/"}>Blockchain UI</Link>
-              </div>
+              </div> */}
               {/* {[...footer.links[0].items, ...FooterLinks].map((item) => {
                 if (item.href) {
                   return (
