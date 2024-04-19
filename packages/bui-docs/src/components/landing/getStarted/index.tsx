@@ -15,8 +15,7 @@ const GetStartedSection = () => {
           <div className="col-md-5 ">
             <div className="leftSection">
               <Heading>
-                Bringing <span className={`${colorMode}-colormode-text`}>Web2 simplicity and UX</span>to{" "}
-                <span className={`${colorMode}-colormode-text`}>Web3</span>.
+                Bringing Web2<span className={`${colorMode}-colormode-text`}> simplicity and UX </span>to Web3.
               </Heading>
               <div className="description"></div>
               <div className="rightSection d-md-none">
