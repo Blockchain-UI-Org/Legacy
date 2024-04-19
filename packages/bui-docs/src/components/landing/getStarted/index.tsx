@@ -15,12 +15,10 @@ const GetStartedSection = () => {
           <div className="col-md-5 ">
             <div className="leftSection">
               <Heading>
-                Create beautiful <span className={`${colorMode}-colormode-text`}>Dapps and Apps</span> quickly.
+                Bringing <span className={`${colorMode}-colormode-text`}>Web2 simplicity and UX</span>to{" "}
+                <span className={`${colorMode}-colormode-text`}>Web3</span>.
               </Heading>
-              <div className="description">
-                Blockchain UI is a simple, modular and accessible component library designed to help you build web3
-                apps.
-              </div>
+              <div className="description"></div>
               <div className="rightSection d-md-none">
                 <img src="/img/mock-up1.svg" alt="iphone_mockup" />
               </div>
