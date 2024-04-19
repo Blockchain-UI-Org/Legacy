@@ -13,7 +13,7 @@ const Landing = () => {
     <div>
       {/* <Menu></Menu> */}
       <GetStartedSection />
-      <CommunitySection />
+      {/* <CommunitySection /> */}
 
       {/* <PartnersSection /> */}
 
