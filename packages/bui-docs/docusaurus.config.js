@@ -87,11 +87,11 @@ const config = {
             label: "Library",
             className: "external-link",
           },
-          {
-            href: "/blog",
-            position: "left",
-            label: "Blog",
-          },
+          // {
+          //   href: "/blog",
+          //   position: "left",
+          //   label: "Blog",
+          // },
           {
             href: "https://twitter.com/ui_blockchain",
             position: "right",
