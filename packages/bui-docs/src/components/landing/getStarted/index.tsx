@@ -22,9 +22,13 @@ const GetStartedSection = () => {
                 <img src="/img/mock-up1.svg" alt="iphone_mockup" />
               </div>
               {/* <div className="contactUs">Beta release now available.</div> */}
-              <GradientButton className="button" onClick={() => history.push("/docs/intro")}>
-                Join our Wait List
-              </GradientButton>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSd0D1LURMSx9-4oLMXngkEjaeEqs3sls2XyNPjLSaOApNy7rQ/viewform?usp=sf_link"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <GradientButton className="button">Join our Wait List</GradientButton>
+              </a>
             </div>
           </div>
           <div className="col-md-6 d-none d-md-block ">
