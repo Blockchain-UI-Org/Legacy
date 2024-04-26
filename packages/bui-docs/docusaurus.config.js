@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/palenight");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Web3 UI",
+  title: "Web3 UX",
   tagline: "",
   favicon: "img/favicon.png",
 
@@ -68,9 +68,9 @@ const config = {
       // Replace with your project's social card
       image: "img/logo.png",
       navbar: {
-        // title: "Web3 UI",
+        // title: "Web3 UX",
         // logo: {
-        //   alt: "Web3 UI",
+        //   alt: "Web3 UX",
         //   src: "img/logo.png",
         //   style: { display: "none" },
         // },
@@ -154,7 +154,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Web3 UI, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Web3 UX, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,

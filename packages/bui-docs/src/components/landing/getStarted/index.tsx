@@ -21,6 +21,7 @@ const GetStartedSection = () => {
               </div>
               <div className="contactUs">
                 We provide tools to improve the user experience for developers and users of Web3.
+                {/* <span className={`${colorMode}-colormode-text`}> Web3 </span> */}
               </div>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd0D1LURMSx9-4oLMXngkEjaeEqs3sls2XyNPjLSaOApNy7rQ/viewform?usp=sf_link"
