@@ -46,7 +46,7 @@ const ImageContainer = styled.div`
   margin-top: 150px;
 
   @media screen and (max-width: 768px) {
-    margin-top: 0px;
+    margin-top: -100px;
   }
 `;
 
