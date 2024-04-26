@@ -73,7 +73,7 @@ const Heading = styled.h1`
   width: 60%;
 
   @media (max-width: 767px) {
-    margin-top: 0px;
+    margin-top: -20px;
     margin-bottom: 20px;
     font-size: 1.5rem;
     width: 100%;
