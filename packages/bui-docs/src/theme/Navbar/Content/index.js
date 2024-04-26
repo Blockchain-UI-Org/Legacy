@@ -48,8 +48,9 @@ export default function NavbarContent() {
     <NavbarContentLayout
       left={
         // TODO stop hardcoding items?
+        // revert !! to ! to unhide the nav bar below
         <>
-          {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
+          {!!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
           <NavbarLogo />
           <NavbarItems items={leftItems} />
         </>
