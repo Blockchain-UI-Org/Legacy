@@ -37,7 +37,7 @@ export default function FooterLayout({ style, links, logo, copyright }) {
         <div className="row py-5 justify-content-center">
           <div className="row">
             {/* <div className="col-sm-3 d-flex justify-content-center mb-2">
-                <Link className={"footer__link"} to={"/"}>Web3 UI</Link>
+                <Link className={"footer__link"} to={"/"}>Web3 UX</Link>
               </div> */}
             {/* {[...footer.links[0].items, ...FooterLinks].map((item) => {
                 if (item.href) {
