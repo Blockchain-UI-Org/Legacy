@@ -68,7 +68,6 @@ const CardsData = [
 
 const Heading = styled.h1`
   text-align: center;
-  margin-top: 20px;
   margin-bottom: -50px;
   font-size: 2.5rem;
   width: 60%;
@@ -83,7 +82,7 @@ const Heading = styled.h1`
 const FeaturesSection = () => {
   return (
     <div className="featureSection">
-      <div className="container" style={{ marginTop: "20px" }}>
+      <div className="container">
         <div className="heroHeader d-flex align-items-center justify-content-center">
           <Heading>
             Discover the benefits of <span style={{ color: "#8BD6FF" }}>Web3</span>, without the complexity

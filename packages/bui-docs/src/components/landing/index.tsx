@@ -43,11 +43,7 @@ const ImageContainer = styled.div`
   overflow: auto;
   align-content: center;
   align-items: center;
-  margin-top: 150px;
-
-  @media screen and (max-width: 768px) {
-    margin-top: 0px;
-  }
+  margin-top: 50px;
 `;
 
 const Landing = () => {
