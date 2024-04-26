@@ -43,7 +43,6 @@ const ImageContainer = styled.div`
   overflow: auto;
   align-content: center;
   align-items: center;
-  margin-top: 500px;
 
   @media screen and (max-width: 768px) {
     margin-top: 0px;
@@ -67,10 +66,10 @@ const Landing = () => {
           <div>
             <Logo src="/img/parallel.png" />
           </div>
-          {/* <span style={{ display: "flex", flexDirection: "row" }}>
+          <span style={{ display: "flex", flexDirection: "row" }}>
             <Logo2 src="/img/lantern.png" />
             <Logo src="/img/lantern.svg" />
-          </span> */}
+          </span>
         </ImageContainer>
       </ModifiedContainer>
 
