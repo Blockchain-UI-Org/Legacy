@@ -27,7 +27,7 @@ const Logo2 = styled.img`
   height: auto;
 
   @media screen and (max-width: 768px) {
-    width: 30px;
+    width: 25px;
   }
 `;
 
@@ -45,6 +45,10 @@ const ImageContainer = styled.div`
   align-items: center;
   margin-top: 20px;
   padding: 0 30px;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+  }
 `;
 
 const Landing = () => {
