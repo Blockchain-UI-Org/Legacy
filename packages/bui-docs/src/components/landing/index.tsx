@@ -32,12 +32,12 @@ const Logo2 = styled.img`
 `;
 
 const ModifiedContainer = styled(Container)`
-  margin-top: 300px;
+  margin-top: 500px;
 
-  // @media screen and (max-width: 768px) {
-  //   margin-top: 0px;
-  //   margin-bottom: -240px;
-  // }
+  @media screen and (max-width: 768px) {
+    margin-top: 0px;
+    margin-bottom: -240px;
+  }
 `;
 
 const Landing = () => {
