@@ -68,7 +68,7 @@ const CardsData = [
 
 const Heading = styled.h1`
   text-align: center;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
   font-size: 2.5rem;
   width: 60%;
 
