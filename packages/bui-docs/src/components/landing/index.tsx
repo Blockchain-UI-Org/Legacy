@@ -43,7 +43,8 @@ const ImageContainer = styled.div`
   overflow: auto;
   align-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  padding: 0 30px;
 `;
 
 const Landing = () => {
