@@ -32,11 +32,21 @@ const Logo2 = styled.img`
 `;
 
 const ModifiedContainer = styled(Container)`
+  @media screen and (max-width: 768px) {
+    margin-bottom: -240px;
+  }
+`;
+const ImageContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  align-content: center;
+  align-items: center;
   margin-top: 500px;
 
   @media screen and (max-width: 768px) {
     margin-top: 0px;
-    margin-bottom: -240px;
   }
 `;
 
@@ -47,16 +57,7 @@ const Landing = () => {
       <GetStartedSection />
       {/* <PartnersSection /> */}
       <ModifiedContainer>
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "center",
-            overflow: "auto",
-            alignContent: "center",
-            alignItems: "center",
-          }}
-        >
+        <ImageContainer>
           <div>
             <Logo src="/img/techstars_white.svg" />
           </div>
@@ -66,11 +67,11 @@ const Landing = () => {
           <div>
             <Logo src="/img/parallel.png" />
           </div>
-          <span style={{ display: "flex", flexDirection: "row" }}>
+          {/* <span style={{ display: "flex", flexDirection: "row" }}>
             <Logo2 src="/img/lantern.png" />
             <Logo src="/img/lantern.svg" />
-          </span>
-        </div>
+          </span> */}
+        </ImageContainer>
       </ModifiedContainer>
 
       {/* <CommunitySection /> */}
