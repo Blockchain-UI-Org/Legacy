@@ -13,7 +13,7 @@ import styled from "@emotion/styled";
 
 const Logo = styled.img`
   margin-right: 50px;
-  width: 100px;
+  width: 150px;
   height: auto;
 
   @media screen and (max-width: 768px) {
