@@ -15,11 +15,10 @@
   --ifm-navbar-background-color: #f6f9fa;
   --ifm-font-color-base: rgba(63, 63, 63, 1);
 
-  
   --ifm-text-button-color: rgba(255, 255, 255, 1);
-  --ifm-bui-bg-secondary: #FFFFFF;
+  --ifm-bui-bg-secondary: #ffffff;
   --ifm-bui-text-secondary: rgba(125, 125, 125, 1);
-  --ifm-bui-divider-color: #DBDBDB;
+  --ifm-bui-divider-color: #dbdbdb;
 
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -39,11 +38,9 @@
   --ifm-font-color-base: rgba(245, 245, 247, 1);
   --ifm-text-button-color: rgba(25, 25, 25, 1);
 
-
   --ifm-bui-bg-secondary: #202020;
   --ifm-bui-text-secondary: rgba(196, 196, 196, 1);
   --ifm-bui-divider-color: #454545;
-
 
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -56,15 +53,15 @@
 }
 
 body {
-  margin: 0;  
+  margin: 0;
   font-family: "Public Sans", -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
   color: var(--ifm-font-color-base);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
-html, body {
+html,
+body {
   background-color: var(--ifm-navbar-background-color);
 }
 
@@ -98,7 +95,6 @@ html, body {
   margin-right: 0;
 }
 
-
 .twitter-icon-footer {
   color: #00acee;
   font-size: 20px;
@@ -113,7 +109,8 @@ html, body {
   color: var(--ifm-font-color-base);
 }
 
-.fa-github:hover, .twitter-icon-footer:hover {
+.fa-github:hover,
+.twitter-icon-footer:hover {
   text-decoration: none;
 }
 
@@ -121,8 +118,9 @@ html, body {
   background-color: var(--ifm-navbar-background-color);
 }
 
-.footer__link,.footer__copyright {
-  color: var( --ifm-font-color-base);
+.footer__link,
+.footer__copyright {
+  color: var(--ifm-font-color-base);
 }
 .footer__link:hover {
   text-decoration: none;

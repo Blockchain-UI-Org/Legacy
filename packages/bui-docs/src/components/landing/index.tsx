@@ -9,6 +9,36 @@ import { FAQSection } from "../FAQSection/FAQSection";
 import { GetInTouch } from "../GetInTouch/GetInTouch";
 import PartnersSection from "./partners";
 import { Heading } from "../Heading";
+import styled from "@emotion/styled";
+
+const Logo = styled.img`
+  margin-right: 50px;
+  width: 100px;
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    margin-right: 30px;
+    width: 90px;
+  }
+`;
+
+const Logo2 = styled.img`
+  width: 30px;
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 30px;
+  }
+`;
+
+const ModifiedContainer = styled(Container)`
+  margin-top: 300px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0px;
+    margin-bottom: -140px;
+  }
+`;
 
 const Landing = () => {
   return (
@@ -16,24 +46,33 @@ const Landing = () => {
       {/* <Menu></Menu> */}
       <GetStartedSection />
       {/* <PartnersSection /> */}
-      <div className="container" style={{ marginTop: "300px" }}>
-        <div className="d-flex align-items-center justify-content-center">
-          <img style={{ marginRight: "50px" }} width="200" height="auto" src="/img/techstars_white.svg" />
-          <img style={{ marginRight: "50px" }} width="200" height="auto" src="/img/blockFi.svg" />
-          <img style={{ marginRight: "50px" }} width="200" height="auto" src="/img/parallel.png" />
+      <ModifiedContainer>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            overflow: "auto",
+            alignContent: "center",
+            alignItems: "center",
+          }}
+        >
           <div>
-            <img style={{}} width="50" height="auto" src="/img/lantern.png" />
-            <img style={{}} width="200" height="auto" src="/img/lantern.svg" />
+            <Logo src="/img/techstars_white.svg" />
           </div>
+          <div>
+            <Logo src="/img/blockFi.svg" />
+          </div>
+          <div>
+            <Logo src="/img/parallel.png" />
+          </div>
+          <span style={{ display: "flex", flexDirection: "row" }}>
+            <Logo2 src="/img/lantern.png" />
+            <Logo src="/img/lantern.svg" />
+          </span>
         </div>
-      </div>
-      {/* <div style={{ display: "flex", width: "100%" }}>
-        <Container>
-          <div className="header"></div>
+      </ModifiedContainer>
 
-         
-        </Container>
-      </div> */}
       {/* <CommunitySection /> */}
 
       <br />

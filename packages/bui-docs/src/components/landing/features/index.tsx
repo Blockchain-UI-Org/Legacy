@@ -1,6 +1,7 @@
 import React from "react";
-import { Heading } from "../../Heading/Heading";
+// import { Heading } from "../../Heading/Heading";
 import "./Feature.scss";
+import styled from "@emotion/styled";
 
 const CardsData = [
   {
@@ -65,21 +66,26 @@ const CardsData = [
 //   },
 // ];
 
+const Heading = styled.h1`
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -50px;
+  font-size: 2.5rem;
+  width: 60%;
+
+  @media (max-width: 767px) {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+`;
+
 const FeaturesSection = () => {
   return (
     <div className="featureSection">
       <div className="container" style={{ marginTop: "20px" }}>
-        <div className="d-flex align-items-center justify-content-center">
-          <Heading
-            style={{
-              justifyContent: "center",
-              textAlign: "center",
-              marginTop: "20px",
-              marginBottom: "-50px",
-              fontSize: "2.5rem",
-              width: "60%",
-            }}
-          >
+        <div className="heroHeader d-flex align-items-center justify-content-center">
+          <Heading>
             Discover the benefits of <span style={{ color: "#8BD6FF" }}>Web3</span>, without the complexity
           </Heading>
         </div>
