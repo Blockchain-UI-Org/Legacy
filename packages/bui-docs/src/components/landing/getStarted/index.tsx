@@ -14,14 +14,14 @@ const GetStartedSection = () => {
         <div className="row ">
           <div className="col-md-5 ">
             <div className="leftSection">
-              <Heading>
-                Bringing Web2<span className={`${colorMode}-colormode-text`}> simplicity and UX </span>to Web3.
-              </Heading>
+              <Heading>Make Web3 Simple</Heading>
               <div className="description"></div>
               <div className="rightSection d-md-none">
                 <img src="/img/mock-up1.svg" alt="iphone_mockup" />
               </div>
-              {/* <div className="contactUs">Beta release now available.</div> */}
+              <div className="contactUs">
+                We provide tools to improve the user experience for developers and users of Web3.
+              </div>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSd0D1LURMSx9-4oLMXngkEjaeEqs3sls2XyNPjLSaOApNy7rQ/viewform?usp=sf_link"
                 target="_blank"
