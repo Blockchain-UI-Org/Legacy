@@ -59,9 +59,9 @@ const Landing = () => {
       {/* <PartnersSection /> */}
       <ModifiedContainer>
         <ImageContainer>
-          <div>
+          {/* <div>
             <Logo src="/img/techstars_white.svg" />
-          </div>
+          </div> */}
           <div>
             <Logo src="/img/blockFi.svg" />
           </div>
