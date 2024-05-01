@@ -20,7 +20,7 @@ const GetStartedSection = () => {
                 <img src="/img/mock-up1.svg" alt="iphone_mockup" />
               </div>
               <div className="contactUs">
-                We provide tools to improve the user experience for developers and users of Web3.
+                We provide tools powered by AI to improve the user experience for developers and users of Web3.
                 {/* <span className={`${colorMode}-colormode-text`}> Web3 </span> */}
               </div>
               <a
