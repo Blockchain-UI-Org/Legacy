@@ -62,7 +62,7 @@ const Landing = () => {
           {/* <div>
             <Logo src="/img/techstars_white.svg" />
           </div> */}
-          <div>
+          {/* <div>
             <Logo src="/img/blockFi.svg" />
           </div>
           <div>
@@ -71,7 +71,7 @@ const Landing = () => {
           <span style={{ display: "flex", flexDirection: "row" }}>
             <Logo2 src="/img/lantern.png" />
             <Logo src="/img/lantern.svg" />
-          </span>
+          </span> */}
         </ImageContainer>
       </ModifiedContainer>
 
